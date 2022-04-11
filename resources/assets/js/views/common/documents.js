@@ -112,6 +112,7 @@ const app = new Vue({
             let totals_taxes = [];
             let grand_total = 0;
             let inclusive_tax_total = 0;
+            this.totals.discount = 0;
 
             // items calculate
             this.items.forEach(function(item, index) {
